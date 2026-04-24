@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Event</title>
+</head>
+
+<body bgcolor="black" text="white">
+
+<br>
+
+<h2 align="center">CREATE EVENT</h2>
+<hr color="gray">
+
+<form action="create_event.php" method="POST">
+
+<center>
+
+<table border="1" cellpadding="10" bgcolor="#111111">
+
+<tr>
+    <td>Title</td>
+    <td><input type="text" name="title" required></td>
+</tr>
+
+<tr>
+    <td>Description</td>
+    <td><textarea name="description" required></textarea></td>
+</tr>
+
+<tr>
+    <td>Date</td>
+    <td><input type="date" name="date" required></td>
+</tr>
+
+<tr>
+    <td colspan="2" align="center">
+        <button type="submit">Create Event</button>
+    </td>
+</tr>
+
+</table>
+
+</center>
+
+</form>
+
+<br>
+
+<p align="center">
+    <a href="dashboard.php" style="color:white;">Back to Dashboard</a>
+</p>
+
+</body>
+</html>
